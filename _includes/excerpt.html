@@ -1,0 +1,8 @@
+{% for post in site.posts  %}
+    <div class='util'>
+        <h2>{% post.title %}</h2>
+        <div class='con'>
+            {{ post.excerpt }} 
+        </div>
+    </div>
+{% endof %}

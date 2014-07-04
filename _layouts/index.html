@@ -9,7 +9,14 @@
 
     <body>
         {% include header.html  %}
-        <h1> this is test </h1>
-        
+        <div id='main'>
+            <div id='list'>
+                {% include list.html %}
+            </div>
+
+            <div id='excerpt'>
+                {% include excerpt.html %}
+            </div>
+        </div>
     </body>
 </html>
